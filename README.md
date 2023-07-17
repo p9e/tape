@@ -1,7 +1,3 @@
-# [about](https://s9a.github.io/about) [s9a](https://github.com/s9a)
+## [`tape`](https://s9a.page/tape) [starsheet](https://p9e.page/tape) 
 
-* Colorful code creators.
-* Inclusion influencers.
-* Open web believers.
-* Extrasensory HTML.
-* [CSS synesthesia.](https://s9a.github.io)
+### [opensuction](https://github.com/s9a/tape/commit/5072a403673a6f93a156527acc7fdeef01404ba4)
