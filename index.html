@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="hotpink">
-<meta name="description" content="synesthesia tape astrology">
+<meta name="description" content="synesthesia tape astrology leo new moon 2018">
 
 <link rel="license" href="LICENSE.md">
 <link rel="help" href="https://s9a.page/tape">
+<link rel="help" href="https://p9e.page/asteria">
 
 <style media=(color) data-hues=https://s9a.org/tape/releases/tag/v0.8.0>
 :root{--tape-filter:none;--tape-bluv:#11dff1;--tape-play:#fbbfff;--tape-loud:#eee833;--tape-luvu:#44f477;--tape-blaq:#0e0e0e;--tape-watt:#e0e0e0;--tape-hex:#e0e0e0;--tape-mix:transparent}.tape-watt{--tape-hex:var(--tape-watt)}.tape-luvu{--tape-hex:var(--tape-luvu)}.tape-loud{--tape-hex:var(--tape-loud)}.tape-play{--tape-hex:var(--tape-play)}.tape-bluv{--tape-hex:var(--tape-bluv)}.tape-flat{border-color:transparent}.tape-flap{border-color:currentColor}.tape-flow{--tape-remix:none}.tape-flow :not(.tape-skip){background-color:transparent;color:inherit}.tape-blaq,.tape-bluv,.tape-loud,.tape-luvu,.tape-play,.tape-watt{--tape-mix:var(--tape-hex);--tape-remix:none;color:var(--tape-blaq)!important;background-color:var(--tape-mix)!important;background-image:var(--tape-remix);filter:var(--tape-filter)}.tape-blaq{--tape-mix:var(--tape-blaq);color:var(--tape-hex)!important}.tape-erase,.tape-erase *{color:transparent!important}
@@ -35,26 +36,27 @@
 /*  .bass { border-radius: 0% }*/
 /*  .bess { border-radius: 20% }*/
 /*  .buss { border-radius: 30% }*/
-  .roar { font-size: 2em }
-  dt { font-size: 2em; font-weight: bold }
-
+  .roar { font-size: 1.618em }
+  
+  dt { font-size: 1.618em }
+  dt, dd { margin: 0 0 2vh }
+  h1  {  float: left; text-indent: 5vw }
   @media (orientation: portrait) {
     .roam { writing-mode: vertical-rl } 
+    h1 { text-indent: 20vh }
   }
 
   * { box-sizing: border-box }
-  html { font: max(22px, 2vw)/1.6 sans-serif }
+  html { font: max(22px, 2vmax + 1vmin)/1.618 sans-serif }
   samp { font-weight: 500 }
   cite { font: unset }
-  h1 { float: left }
-  header { display: flow-root }
   header em { font-weight: 600; font-style: unset }
   html { border-bottom: 9vh double var(--tape-watt) }
   body { margin: auto; overflow-wrap:anywhere }
   input { font: unset; display: table; max-width: 100% }
   button { font: unset }
   figure { margin: auto; contain: layout }
-  h1 { font-size: 3rem  }
+  h1 { font-size: 2.618rem  }
   ul { padding: 0; text-align: end }
   li { 
     list-style: none;
@@ -69,15 +71,19 @@
     flex-basis: calc(100% / 3);
     display: table;
     margin: 0;
-    padding: 5vh 3vw;
+    padding: 3vh 3vw;
   }
-  :focus { outline: 1rem outset }
+  :any-link { text-decoration-style: dotted }
+  :focus { 
+    outline: 1rem outset;
+    text-decoration-style: solid;
+  }
+  :hover { text-decoration-style: double }
   ::selection {
     color: seashell;
     background: blueviolet;
   }
-  dt { margin: 0 }
-  dd { margin: 0 }
+
   .ear {
     --tape-remix: linear-gradient(.3turn,
       var(--tape-watt),
@@ -110,13 +116,13 @@
   <ul>
     <li class="parlay tape-watt">
       <a href="https://webmural.com/mpf#29">octopus</a>
-    <li class="parlay tape-watt">0º cancer ri̊<em>si̊ng</em>
-    <li class="parlay tape-watt">0º cancer for<em>tune</em>
-    <li class="parlay tape-play">born4summer<em>eves</em>
-    <li class="parlay tape-play">Leo new moon 2018 
-    <li class="parlay tape-luvu">san franci̊sco
-    <li class="parlay tape-loud">11 august 2:35<b>am</b>
-    <li class="parlay tape-bluv">PaCi̊Fi̊C<time class="tape-loud">02:35:12</time>
+    <li class="parlay tape-watt">0º ♋ ri̊<em>si̊ng</em>
+    <li class="parlay tape-watt">0º ♋ for<em>tune</em>
+    <li class="parlay tape-play"><sup class="roam">born4</sup>summer<em>eves</em>
+    <li class="parlay tape-play">♌ 🌑 2018 
+    <li class="parlay tape-luvu">san<br>franci̊sco
+    <li class="parlay tape-loud">11 august<br>2:35<b>am</b>
+    <li class="parlay tape-bluv roam">PaCi̊Fi̊C<time class="tape-loud">02:35:12</time>
   </ul>
 </header>
 
@@ -125,14 +131,14 @@
     class="bass tape-watt"
     aria-label="cancer">
     <dt><em>1H</em> ♋
-    <dd>0°44 📶
-    <dd>0°57 ☮️
+    <dd><strong>0°</strong>44 📶
+    <dd><strong>0°</strong>57 ☮️
   </dl> 
   <dl id="2"
     class="bess tape-play"
     style="--tape-filter:hue-rotate(72deg)"
     aria-label="leo">
-    <dt>2H ♌ 
+    <dt><b>2H</b> ♌ 
     <dd>5°07 ☊ rahu ℞
     <dd>14°42 mercury ℞
     <dd>17°06 pallas
@@ -150,7 +156,7 @@
     class="bass tape-bluv"
     style="--tape-filter:hue-rotate(36deg)"
     aria-label="libra">
-    <dt>4H ♎
+    <dt><em>4H</em> ♎
     <dd>3°22 make<sup>make</sup>
     <dd>4°28 <em>venus</em>
     <dd>23°53 haumea
@@ -158,8 +164,8 @@
   <dl id="5"
     class="bess tape-blaq tape-play"
     aria-label="scorpio">
-    <dt>5H ♏
-    <dd>14°48 jove
+    <dt><b>5H</b> ♏
+    <dd>14°48 thunder
     <dd>16°04 psyche
     <dd>19°28 vertex
   </dl>
@@ -175,7 +181,7 @@
   <dl id="7"
     class="bass tape-luvu tape-blaq"
     aria-label="capricorn">
-    <dt>7H ♑
+    <dt><em>7H</em> ♑
     <dd>3°04 <em>saturn</em> ℞
     <dd>15°25 chariklo
     <dd>19°19 pluto ℞
@@ -183,10 +189,10 @@
   <dl id="8"
     class="bess tape-luvu"
     aria-label="aquarius">
-    <dt>8H ♒
-    <dd>0°19 mars
-    <dd>0°33 lilith M
-    <dd>5°07 ☋ Ketu ℞
+    <dt><b>8H</b> ♒
+    <dd><strong>0°</strong>19 mars
+    <dd><strong>0°</strong>33 lilith M
+    <dd>5°07 ☋ ketu ℞
   </dl>
   <dl id="9"
       class="buss tape-bluv"
@@ -197,13 +203,13 @@
     <dd>
   </dl>
   <dl id="10" class="bass tape-watt" aria-label="aries">
-    <dt>10H ♈
+    <dt><em>10H</em> ♈
     <dd>1°50 chiron ℞
     <dd>7°25 hygeia ℞
     <dd>24°03 eris ℞
   </dl>
   <dl id="11" class="bess tape-play" aria-label="taurus">
-    <dt>11H ♉
+    <dt><b>11H</b> ♉
     <dd>2°33 uranus ℞
     <dd>5°11 ac/mc
     <dd>12°17 eros 
@@ -222,15 +228,16 @@
 
 <aside class="roar fiesta" aria-label="sampler">
   <q hidden>watt play loud luvu blaq bluv</q>
-  <a class="tape-watt" href="https://s9a.page/E">E=mp3</a>
-  <a class="tape-watt" href="https://webmural.com/testing">🎲</a>
-  <a class="tape-watt" href="https://webmural.com/placebo">☯️</a>
+  <a class="tape-watt hush" href="https://s9a.page/E">E=</a>
   <a class="tape-watt" href="https://webmural.com/milf">🥛</a>
+  <a class="tape-watt" href="https://webmural.com/placebo">☯️</a>
+  <a class="tape-watt" href="https://webmural.com/testing">🎲</a>
+  <a class="tape-watt" href="https://s9a.page/j29">🎭</a>
 </aside>
 
 <footer class="nemo roar fiesta"
   style="--tape-play:hotpink;--tape-loud:salmon">
   <a class="tape-play" href="https://s9a.page">s9a</a>
-  <a class="tape-watt" href="https://s9a.page/tape">✸</a>
+  <a class="tape-watt" href="https://octopus.boo">✸</a>
   <a class="tape-loud" href="https://p9e.page">p9e</a>
 </footer>
